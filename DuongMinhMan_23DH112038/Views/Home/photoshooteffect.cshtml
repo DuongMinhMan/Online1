@@ -1,0 +1,124 @@
+﻿<style type="text/css">
+    body {
+        margin: 0px auto;
+        width: 960px;
+        font-family: Arial, sans-serif;
+        color: #fcfcfc;
+        background: #355664;
+    }
+    .logo {
+        font-family: Forte, Arial, sans-serif;
+        font-size: 50px;
+        padding: 10px 0 0;
+        text-align: center;
+    }
+    .slogan {
+        font-family: Forte, Arial, sans-serif;
+        font-size: 40px;
+        text-align: right;
+    }
+    nav ul{
+        list-style-type: none;
+    }
+    #blue a {
+        color: #7CB3E9;
+    }
+    #green a {
+        color: #8EC45B;
+    }
+    #white a{
+        color: #ffffff;
+    }
+    nav ul li {
+        text-align: left;
+        font-size: 27px;
+        font-weight: normal;
+        margin-right: 15px;
+        display: inline;
+    }
+    section {
+        height: 430px;
+        background: #213E4A;
+        padding: 20px;
+        margin: 0 0 10px;
+    }
+    #article-slogan {
+        font-family: Forte, Arial, sans-serif;
+        font-size: 40px;
+        letter-spacing: 15px;
+        border-bottom: 3px solid #416371;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .article-content {
+        text-align: left;
+        margin: 15px 0;
+        display: flex;
+        line-height: 20px;
+    }
+    #green-text{
+        color: #94c258;
+    }
+    figure {
+        border: 3px solid #142830;
+        float: right;
+        height: 300px;
+        width: 500px;
+        margin-left: 15px;
+    }
+    img {
+        width: 500px;
+        height: 300px;
+        border: none;
+    }
+    footer {
+        border-top: 3px solid #142830;
+        padding-top: 15px;
+        margin-bottom: 30px;
+        font-size: 20px;
+        text-align: center;
+    }
+</style>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>View</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>YOUR LOGO</h1>
+        </div>
+        <div class="slogan">
+            <h2>and a fancy slogan</h2>
+        </div>
+        <nav>
+            <ul>
+                <li id="blue"><a href="#">photoshoot</a></li>
+                <li id="green"><a href="#">Sweet tabs</a></li>
+                <li id="white"><a href="#">NAVIGATION MENU</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div>
+            <h1 id="article-slogan">PHOTOSHOOT EFFECT</h1>
+        </div>
+        <div class="article-content">    
+            <p>
+                <a id="green-text">In this tutorial, we are creating a photo shoot effect with our just-released PhotoShoot jQuery plug-in. With it you can convert a regular div on the page into a photo shooting stage simulating a camera-like feel.</a>
+                <br />
+                Potential clients want to see who they'll be working with. They want to hire people, not stock photography. We produced a custom photo shoot to bring the people of Paterson Buchanan front and center and to underscore the firm's open and welcoming style. Vivid images illustrate Paterson Buchanan's wide range of clients, as well as their commitment to the picturesque region the firm serves.
+            </p>
+            <figure>
+                <img src="~/Models/Image/hinh2.png" />
+            </figure>
+        </div>
+    </section>
+    <footer>
+        © Copyright 2017 - YourSite.com
+    </footer>
+</body>
+</html>

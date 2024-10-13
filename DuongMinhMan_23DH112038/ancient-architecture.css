@@ -1,0 +1,81 @@
+﻿nav ul {
+    margin: 30px;
+    list-style-type: none;
+}
+nav ul li {
+    text-align: center;
+    font-weight: normal;
+    margin-right: 15px;
+    display: inline;
+}
+.blue {
+    text-decoration: none;
+    color: #0a2d4a;
+    font-weight: bold;
+}
+.black {
+    text-decoration: none;
+    color: #000000;
+}
+h1 {
+    font-size: 65px;
+    text-align: center;
+    margin-top: 65px;
+    font-family: 'Indie Flower', cursive;
+}
+body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    background: #e2d7aa;
+    color: #000000;
+    font-size: 16px;
+    width: 1180px;
+}
+#Image{
+    width: 1100px;
+    height: 450px;
+}
+.title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-container{
+    font-size: 23px;
+}
+.date-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.date-container a{
+    text-decoration: none;
+    color: blue;
+}
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image-article{
+    width: 350px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.description {
+    padding-left: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.description span a{
+    font-family: EucrosiaUPC, sans-serif;
+    font-size: 40px;
+}
+footer{
+    margin: 0px;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
